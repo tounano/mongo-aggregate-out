@@ -1,0 +1,29 @@
+{
+  "name": "mongo-aggregate-out",
+  "version": "0.0.1",
+  "main": "./aggregate.js",
+  "description": "Save aggregation results in a collection for Mongo < 2.6.",
+  "homepage": "https://github.com/tounano/mongo-aggregate-out/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "mongodb",
+    "aggregate",
+    "collection"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/mongo-aggregate-out"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "mongo-version": "latest",
+    "compare-version": "latest",
+    "underscore": "latest"
+  }
+}
